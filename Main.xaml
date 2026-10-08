@@ -104,11 +104,7 @@
   <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="798,708" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_DressCode" />
-      <Variable x:TypeArguments="x:Int32" Name="dressRules">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:Int32" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="dressRules" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -140,7 +136,7 @@
                 <InArgument x:TypeArguments="x:Int32">[str_DressCode.length]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,113.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Number of characters:&quot;+ dressRules.ToString]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,113.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Git Lab Completed&quot;]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>

@@ -1,0 +1,6 @@
+{
+  "Name": "licet_dresscode",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Rules And Regulations – LICET",
+  "Type": "Screen",
+  "Id": "wBXoosvs602PXhOVk7leew",
+  "Reference": "kSDQD93Rv0K_sVDpra0wnA/wBXoosvs602PXhOVk7leew",
+  "ParentRef": "kSDQD93Rv0K_sVDpra0wnA/sKpeFD73XUuHOMx5Jo7gWQ",
+  "Created": "2026-10-07T03:05:26.0069545Z",
+  "Updated": "2026-10-07T03:05:26.0069545Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
